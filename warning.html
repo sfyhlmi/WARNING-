@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaran Phishing</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #141414; /* Dark background */
+            color: #fff; /* White font color */
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px; /* Adjusted max-width for larger container */
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .warning-logo {
+            font-size: 100px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ff3333; /* Red color for warning text */
+            text-shadow: 2px 2px 4px rgba(255, 51, 51, 0.5); /* Adding text shadow for futuristic effect */
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #fff; /* White color for text */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for futuristic effect */
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff3333; /* Red button background */
+            color: #fff; /* White button text color */
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            border: 2px solid #fff; /* White border */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for futuristic effect */
+        }
+        .button:hover {
+            background-color: #d32f2f; /* Darker red on hover */
+        }
+        /* Additional section styles */
+        .section {
+            padding: 50px 20px;
+            background-color: #212121; /* Dark gray background for sections */
+            color: #fff; /* White color for text */
+            text-align: left;
+            margin-bottom: 50px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Adding box shadow for futuristic effect */
+        }
+        .section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #ffcc00; /* Yellow color for section headings */
+            text-shadow: 2px 2px 4px rgba(255, 204, 0, 0.5); /* Adding text shadow for futuristic effect */
+        }
+        .section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #fff; /* White color for text */
+        }
+        .section ul,
+        .section ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .section li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #fff; /* White color for text */
+        }
+        /* Footer styles */
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+        }
+        .logo img {
+            max-width: 80px;
+            height: auto;
+        }
+        .footer-text {
+            font-size: 18px;
+        }
+        .divider {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        /* Bold and yellow text */
+        .bold-yellow {
+            font-weight: bold;
+            color: #ffcc00; /* Yellow color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Warning Section -->
+        <div class="warning-logo">⚠️</div>
+        <h1>Amaran! Anda telah menjadi mangsa serangan phishing!</h1>
+        
+
+        <!-- Explanation Section -->
+        <div class="section">
+            <h2>PERHATIAN</h2>
+            <p>Tindakan ini adalah sebahagian daripada ujian phishing yang dijalankan untuk menguji tahap kesedaran semua individu dalam organisasi <span class="bold-yellow">LZNK</span> terhadap jenis serangan ini, dengan harapan agar semua pihak dapat mengenal pasti serta bertindak mengikut prosedur keselamatan yang ditetapkan dalam menghadapi ancaman serangan phishing pada masa akan datang.</p>
+        </div>
+
+        <!-- Steps to Avoid Phishing Section -->
+        <div class="section">
+            <h2>CARA - CARA UNTUK MENGELAKKAN DIRI DARIPADA SERANGAN PHISHING</h2>
+            <ol>
+                <li>Berwaspada terhadap e-mel atau mesej yang mencurigakan</li>
+                <li>Verifikasi sumber mesej sebelum memberikan maklumat peribadi</li>
+                <li>Semak URL laman web dengan teliti sebelum memberikan maklumat sensitif</li>
+                <li>Hindari membuka lampiran e-mel yang mencurigakan</li>
+                <li>Tingkatkan kesedaran keselamatan siber dalam organisasi</li>
+                <li>Hindari memberikan maklumat peribadi secara online tanpa pertimbangan yang matang</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">Kempen ini dianjurkan oleh</p>
+		 <p class="footer-text"><span class="bold-yellow">Divisyen Pengurusan Keselamatan Siber</span></p>
+        <div class="divider"></div>
+        <div class="logo">
+            <img src="C:\xampp\htdocs\lznkkk-removebg-preview.png" alt="Lembaga Zakat Negeri Kedah Logo">
+        </div>
+    </footer>
+</body>
+</html>
